@@ -2,7 +2,9 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
+h2 {
+    margin-left: 10%;
+}
 
 .nav-banner {
     display:flex;
