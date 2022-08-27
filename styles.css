@@ -1,0 +1,98 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.nav-banner {
+    display:flex;
+    background-color: lightblue;
+    justify-content: center;
+    margin: 40px auto;
+    width:fit-content;
+    border: 0px solid;
+    border-radius: 10%;
+}
+
+.nav-banner a {
+    font-size: 22pt;
+    margin: 5px 50px;
+}
+
+.overview, .courses, .faculty {
+    max-width: 80%;
+    display:flex;
+    margin:40px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: darkgray;
+    justify-content: center;
+}
+
+.faculty {
+    padding: 10px;
+}
+
+.overview {
+    max-height: 600px;
+}
+
+.overview div {
+    margin: 10px;
+    padding: 20px;
+    flex: 4;
+}
+
+.overview div img {
+    max-width: 50%;
+    height: auto;
+}
+
+.course-item {
+    display:flex;
+    flex-direction: column;
+    border: lightblue 4px solid; /* This might not work. */
+    border-radius: 10px;
+    margin: 16px;
+    padding: 4px;
+}
+
+.course-item h3 {
+    height: 10%;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+.course-item p {
+    height: 90%;
+    align-content: initial;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.faculty-member {
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+}
+
+.faculty img {
+    border-radius: 100%;
+    border:0px solid;
+    height: auto;
+    width: 80%;
+}
+
+#apply-now {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #008CBA;
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+}
